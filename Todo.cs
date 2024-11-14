@@ -1,3 +1,4 @@
+// Шаблон элемента базы данных
 public class Todo
 {
     public int Id { get; set; }

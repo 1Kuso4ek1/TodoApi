@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
+// База данных, список TODO
 public class TodoDb : DbContext
 {
     public TodoDb(DbContextOptions<TodoDb> options) : base(options) {}
